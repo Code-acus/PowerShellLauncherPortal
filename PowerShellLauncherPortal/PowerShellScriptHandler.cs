@@ -70,6 +70,11 @@ namespace PowerShellLauncherPortal
                 }
             }
         }
+
+        public void ExecuteScriptOnComputer(string? computerName)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 
