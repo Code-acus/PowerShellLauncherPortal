@@ -1,0 +1,5 @@
+C:\Users\HarrisonRogers\RiderProjects\PowerShellLauncherPortal\PowerShellLauncherPortal\obj\Debug\net7.0-windows\PowerShellLauncherPortal.csproj.AssemblyReference.cache
+C:\Users\HarrisonRogers\RiderProjects\PowerShellLauncherPortal\PowerShellLauncherPortal\obj\Debug\net7.0-windows\PowerShellLauncherPortal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HarrisonRogers\RiderProjects\PowerShellLauncherPortal\PowerShellLauncherPortal\obj\Debug\net7.0-windows\PowerShellLauncherPortal.AssemblyInfoInputs.cache
+C:\Users\HarrisonRogers\RiderProjects\PowerShellLauncherPortal\PowerShellLauncherPortal\obj\Debug\net7.0-windows\PowerShellLauncherPortal.AssemblyInfo.cs
+C:\Users\HarrisonRogers\RiderProjects\PowerShellLauncherPortal\PowerShellLauncherPortal\obj\Debug\net7.0-windows\PowerShellLauncherPortal.csproj.CoreCompileInputs.cache
