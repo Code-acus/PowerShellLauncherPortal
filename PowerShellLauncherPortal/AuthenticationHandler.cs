@@ -1,30 +1,24 @@
-﻿using Microsoft.Identity.Client;
+﻿using System;
+using System.Threading.Tasks;
+using Microsoft.Identity.Client;
 
 namespace PowerShellLauncherPortal
 {
     public class AuthenticationHandler
     {
-        private const string AzureAdClientId = "your-azuread-client-id";
-        private const string AzureAdTenantId = "your-azuread-tenant-id";
+        // Add other class members if necessary
+
+        // Add the AccessToken property
+        public string AccessToken { get; private set; }
 
         public async Task<bool> AuthenticateAsync()
         {
-            var app = PublicClientApplicationBuilder.Create(AzureAdClientId)
-                .WithAuthority(AzureCloudInstance.AzurePublic, AzureAdTenantId)
-                .WithRedirectUri("http://localhost")
-                .Build();
+            // Your authentication logic goes here
+            // After obtaining the access token, set the AccessToken property
+            AccessToken = "your_access_token";
 
-            var scopes = new[] { "user.read" };
-
-            try
-            {
-                var result = await app.AcquireTokenInteractive(scopes).ExecuteAsync();
-                return result != null && !string.IsNullOrEmpty(result.AccessToken);
-            }
-            catch (Exception)
-            {
-                return false;
-            }
+            // Return true if authentication is successful, otherwise return false
+            return true;
         }
     }
-}
+}   
