@@ -43,6 +43,28 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.51.0, )"
+            },
+            "Microsoft.PowerShell.5.1.ReferenceAssemblies": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.PowerShell.5.ReferenceAssemblies": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[109.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

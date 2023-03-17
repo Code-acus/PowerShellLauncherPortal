@@ -1,4 +1,6 @@
-﻿namespace PowerShellLauncherPortal
+﻿using Microsoft.Identity.Client;
+
+namespace PowerShellLauncherPortal
 {
     public class AuthenticationHandler
     {
